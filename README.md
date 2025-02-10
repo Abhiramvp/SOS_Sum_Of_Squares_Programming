@@ -1,4 +1,4 @@
-# SOS aka Sum Of Squares Programming
+# SOS  (Sum Of Squares) Programming
 
 ## Monomials: Definition and Example Definition
 A monomial is a mathematical expression in algebra that consists of a single term. It is a product of non-negative integer powers of variables. A monomial can be represented using a multi-index notation, which provides a compact way to handle the powers of variables in multivariable functions.
