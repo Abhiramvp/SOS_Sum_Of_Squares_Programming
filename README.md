@@ -82,3 +82,18 @@ Consider the polynomial  $p(x) = x^2+2x+1$. This polynomial is nonnegative for a
 
 #### Multi-Dimensional Case
 A classic example of a polynomial that is nonnegative but not a sum of squares is Motzkin's polynomial in two variables, given by $p(x,y) = x^4y^2+x^2y^4-3x^2y^2+1$. For all $(x,y) \in \mathbb{R}^2, p(x,y) \geq 0$, yet it cannot be represented as a sum of squares of polynomials. However, according to Artin's solution to Hilbert's 17th problem, it can be expressed as a sum of squares of rational functions.
+
+
+## MATLAB code: sos_monomials.m
+sos_monomials.m is a short script that:
+
+generates monomials in two variables x = [x1, x2] with a multi-index upper bound nu_max = [2, 2],
+
+generates monomials in two variables with a total degree constraint |nu| <= d,
+
+evaluates the corresponding monomials for the numerical example x = [5, 6] with nu_max = [3, 2],
+
+and prints a Gram-matrix / sum-of-squares representation of p(x) = x^2 + 2x + 1 using the basis h(x) = [1; x].
+
+Run in MATLAB by calling:
+sos_monomials
